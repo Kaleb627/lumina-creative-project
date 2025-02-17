@@ -81,45 +81,57 @@
         you as soon as possible
       </p>
       <!-- even when not using the label fo display its important to have the label in the code for screen readrers and accesa bility -->
+      <label
+        class="visually-hidden"
+        for="first-name"
+      >First Name</label>
+
       <input
         type="text"
         id="first-name"
         name="first-name"
         placeholder="First Name"
       />
-      <label
-        class="visually-hidden"
-        for="first-name"
-      >First Name</label>
+
       <label
         class="visually-hidden"
         for="last-name"
       >Last Name</label>
+
       <input
         id="last-name"
         type="text"
         placeholder="Last Name"
+        name="last-name"
       />
+
       <label
         class="visually-hidden"
         for="email"
       >Email</label>
+
       <input
         id="email"
         type="email"
+        name="email"
         placeholder="Email Address"
       />
+
       <label
         class="visually-hidden"
         for="message"
       >Message</label>
+
       <textarea
         id="message"
         class="message"
         type="textarea"
         placeholder="Message"
+        name="message"
       ></textarea>
-      <button>Submit Message</button>
+
+      <button type="submit">Submit Message</button>
+
     </div>
   </section>
 
